@@ -14,6 +14,12 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 512M
 
   backend1:
     build: ./E-commerce-backend
@@ -28,6 +34,11 @@ services:
       postgres:
         condition: service_healthy
     restart: on-failure
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
 
   backend2:
     build: ./E-commerce-backend
@@ -42,6 +53,11 @@ services:
       postgres:
         condition: service_healthy
     restart: on-failure
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
 
   backend3:
     build: ./E-commerce-backend
@@ -56,12 +72,22 @@ services:
       postgres:
         condition: service_healthy
     restart: on-failure
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
 
   frontend:
     build: ./E-commerce-front
     depends_on:
       - backend1
     restart: on-failure
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 128M
 
   nginx:
     image: nginx:alpine
@@ -75,6 +101,21 @@ services:
       - backend3
       - frontend
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.3'
+          memory: 64M
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    restart: unless-stopped
 
 volumes:
   pgdata:
