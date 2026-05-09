@@ -13,9 +13,9 @@ The application allows users to browse products, register, login, manage a shopp
 
 ## 👥 Group Members
 
-Youssef Husseiny
-Adham Mohamed
-Abdelrahman Gamal
+- Youssef Husseiny
+- Adham Mohamed
+- Abdelrahman Gamal
 ---
 
 ## 🏗️ Architecture
