@@ -1,0 +1,11 @@
+.CartSubPrice {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.CartSubPrice span {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+}

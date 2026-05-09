@@ -1,0 +1,2 @@
+- first create slice for wishlist
+- then create asyncthunk to record if item already founded in wihslist if it was founded then remove it if not add it

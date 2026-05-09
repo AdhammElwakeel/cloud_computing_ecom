@@ -1,0 +1,45 @@
+Abstract
+This project demonstrates the deployment of a scalable, cloud-based e-commerce web application.
+Utilizing containerization (Docker) and load balancing, the system is designed to handle high-
+traffic volatility while maintaining optimal performance. The architecture integrates core cloud
+computing concepts—including compute, networking, distributed storage, and resource
+management—to provide a robust, resilient online shopping experience without relying on
+traditional, inflexible server infrastructure.
+Project Description
+Rather than developing an application from scratch, this project focuses on the cloud infrastructure
+integration of an existing open-source e-commerce platform. The system utilizes a multi-tier cloud
+architecture to separate application logic, transactional databases, and media storage. The primary
+purpose is to provide a reliable storefront that guarantees seamless operations. Target users include
+online shoppers who expect fast, uninterrupted browsing, as well as retail administrators who
+require a stable backend to manage inventory and process orders securely.
+Problem Statement
+Traditional e-commerce platforms hosted on static infrastructure frequently suffer from downtime,
+server crashes, and severe latency during peak shopping periods (e.g., flash sales or holiday
+1
+events). This inability to dynamically adapt to unpredictable traffic surges results in poor customer
+experiences and lost revenue. There is a critical need for an architecture that can seamlessly absorb
+heavy concurrent user requests without manual intervention or hardware limitations.
+Full Implementation Plan
+The project will be executed using a containerized compute approach to satisfy all cloud
+integration requirements:
+ Preparation: Select a robust open-source e-commerce application and containerize its
+components using Docker.
+ Compute Provisioning: Deploy the Docker containers on cloud instances. Containers are
+chosen over traditional Virtual Machines because their lightweight nature allows them to spin
+up in seconds, enabling rapid horizontal scaling.
+ Storage Configuration: Implement persistent, shared cloud storage (e.g., object storage) so all
+container instances can serve identical static assets (product images). A centralized relational
+database (e.g., MySQL/PostgreSQL) will be configured for transactional data.
+ Networking Setup: Establish a secure Virtual Private Cloud (VPC) with public subnets for the
+application tier and private subnets to isolate and secure the database tier.
+ Deployment: Launch the application infrastructure and conduct load testing to verify cloud
+component integration.
+Proposed Solution
+To resolve the issues outlined in the problem statement, our solution heavily leverages Load
+Balancing (Scalability). By placing a load balancer at the network's entry point, incoming
+customer traffic will be evenly distributed across multiple parallel instances of the containerized
+application.
+When traffic spikes occur, new lightweight Docker containers can be rapidly provisioned, and the
+load balancer will dynamically include them in the routing pool. This approach prevents any single
+server from becoming overwhelmed, ensures consistently low latency, and maintains a highly
+scalable environment tailored to the erratic demands of modern e-commerce.

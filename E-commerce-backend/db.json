@@ -1,0 +1,505 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "men",
+      "prefix": "men",
+      "img": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 2,
+      "title": "women",
+      "prefix": "women",
+      "img": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 3,
+      "title": "kids",
+      "prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 4,
+      "title": "baby",
+      "prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 5,
+      "title": "sport",
+      "prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Regular Fit Jersey Top",
+      "price": "249.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300&h=400&fit=crop",
+      "max": 50
+    },
+    {
+      "id": 2,
+      "title": "Slim Fit Dress Shirt",
+      "price": "399.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=300&h=400&fit=crop",
+      "max": 30
+    },
+    {
+      "id": 3,
+      "title": "Cotton Polo Shirt",
+      "price": "299.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=300&h=400&fit=crop",
+      "max": 45
+    },
+    {
+      "id": 4,
+      "title": "Denim Jacket",
+      "price": "799.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=300&h=400&fit=crop",
+      "max": 20
+    },
+    {
+      "id": 5,
+      "title": "Classic Leather Belt",
+      "price": "199.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1624222247344-550fb60583c1?w=300&h=400&fit=crop",
+      "max": 60
+    },
+    {
+      "id": 6,
+      "title": "Casual Chino Pants",
+      "price": "549.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=300&h=400&fit=crop",
+      "max": 35
+    },
+    {
+      "id": 7,
+      "title": "Wool Sweater",
+      "price": "649.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=300&h=400&fit=crop",
+      "max": 28
+    },
+    {
+      "id": 8,
+      "title": "Classic Suit Jacket",
+      "price": "1299.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=300&h=400&fit=crop",
+      "max": 15
+    },
+    {
+      "id": 9,
+      "title": "Graphic T-Shirt",
+      "price": "199.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=300&h=400&fit=crop",
+      "max": 70
+    },
+    {
+      "id": 10,
+      "title": "Slim Fit Jeans",
+      "price": "599.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=300&h=400&fit=crop",
+      "max": 40
+    },
+    {
+      "id": 11,
+      "title": "Hoodie Sweatshirt",
+      "price": "449.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=300&h=400&fit=crop",
+      "max": 55
+    },
+    {
+      "id": 12,
+      "title": "Bomber Jacket",
+      "price": "899.00",
+      "cat_prefix": "men",
+      "img": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=300&h=400&fit=crop",
+      "max": 22
+    },
+    {
+      "id": 13,
+      "title": "Cotton T-Shirt",
+      "price": "149.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=300&h=400&fit=crop",
+      "max": 80
+    },
+    {
+      "id": 14,
+      "title": "Elegant Blouse",
+      "price": "399.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=300&h=400&fit=crop",
+      "max": 35
+    },
+    {
+      "id": 15,
+      "title": "Floral Summer Dress",
+      "price": "699.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=300&h=400&fit=crop",
+      "max": 40
+    },
+    {
+      "id": 16,
+      "title": "Skinny Jeans",
+      "price": "549.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=300&h=400&fit=crop",
+      "max": 45
+    },
+    {
+      "id": 17,
+      "title": "Cardigan Sweater",
+      "price": "499.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=300&h=400&fit=crop",
+      "max": 30
+    },
+    {
+      "id": 18,
+      "title": "Midi Skirt",
+      "price": "449.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=300&h=400&fit=crop",
+      "max": 38
+    },
+    {
+      "id": 19,
+      "title": "Leather Handbag",
+      "price": "1299.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=300&h=400&fit=crop",
+      "max": 18
+    },
+    {
+      "id": 20,
+      "title": "Yoga Pants",
+      "price": "349.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=300&h=400&fit=crop",
+      "max": 60
+    },
+    {
+      "id": 21,
+      "title": "Evening Gown",
+      "price": "1599.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=300&h=400&fit=crop",
+      "max": 12
+    },
+    {
+      "id": 22,
+      "title": "Denim Shorts",
+      "price": "299.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=300&h=400&fit=crop",
+      "max": 50
+    },
+    {
+      "id": 23,
+      "title": "Blazer Jacket",
+      "price": "899.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=300&h=400&fit=crop",
+      "max": 25
+    },
+    {
+      "id": 24,
+      "title": "Knit Scarf",
+      "price": "149.00",
+      "cat_prefix": "women",
+      "img": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=300&h=400&fit=crop",
+      "max": 75
+    },
+    {
+      "id": 25,
+      "title": "Kids T-Shirt Pack",
+      "price": "199.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=300&h=400&fit=crop",
+      "max": 90
+    },
+    {
+      "id": 26,
+      "title": "Denim Overalls",
+      "price": "449.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=300&h=400&fit=crop",
+      "max": 35
+    },
+    {
+      "id": 27,
+      "title": "Colorful Hoodie",
+      "price": "349.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?w=300&h=400&fit=crop",
+      "max": 45
+    },
+    {
+      "id": 28,
+      "title": "School Backpack",
+      "price": "299.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1577401239170-897942555fb3?w=300&h=400&fit=crop",
+      "max": 60
+    },
+    {
+      "id": 29,
+      "title": "Rain Jacket",
+      "price": "499.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1489087026-0252436f2d3f?w=300&h=400&fit=crop",
+      "max": 28
+    },
+    {
+      "id": 30,
+      "title": "Athletic Shorts",
+      "price": "199.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=300&h=400&fit=crop",
+      "max": 55
+    },
+    {
+      "id": 31,
+      "title": "Winter Coat",
+      "price": "799.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1514846226882-28b324ef7f28?w=300&h=400&fit=crop",
+      "max": 20
+    },
+    {
+      "id": 32,
+      "title": "Sneakers",
+      "price": "449.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1514989771522-458c9b6c035a?w=300&h=400&fit=crop",
+      "max": 40
+    },
+    {
+      "id": 33,
+      "title": "Pajama Set",
+      "price": "249.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=300&h=400&fit=crop",
+      "max": 50
+    },
+    {
+      "id": 34,
+      "title": "Cartoon Dress",
+      "price": "299.00",
+      "cat_prefix": "kids",
+      "img": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=300&h=400&fit=crop",
+      "max": 38
+    },
+    {
+      "id": 35,
+      "title": "Baby Onesie Pack",
+      "price": "349.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=300&h=400&fit=crop",
+      "max": 100
+    },
+    {
+      "id": 36,
+      "title": "Romper Suit",
+      "price": "299.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=300&h=400&fit=crop",
+      "max": 75
+    },
+    {
+      "id": 37,
+      "title": "Pile All-in-One Suit with Ears",
+      "price": "499.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1586954151244-599b59bc6e97?w=300&h=400&fit=crop",
+      "max": 45
+    },
+    {
+      "id": 38,
+      "title": "Cotton Bodysuit Set",
+      "price": "399.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=300&h=400&fit=crop",
+      "max": 80
+    },
+    {
+      "id": 39,
+      "title": "Baby Booties",
+      "price": "149.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1490551632573-78bbde3f7d35?w=300&h=400&fit=crop",
+      "max": 90
+    },
+    {
+      "id": 40,
+      "title": "Hooded Towel",
+      "price": "249.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=300&h=400&fit=crop",
+      "max": 55
+    },
+    {
+      "id": 41,
+      "title": "Sleep Sack",
+      "price": "449.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1544112730-19bbe0be5e57?w=300&h=400&fit=crop",
+      "max": 35
+    },
+    {
+      "id": 42,
+      "title": "Baby Blanket",
+      "price": "299.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=300&h=400&fit=crop",
+      "max": 60
+    },
+    {
+      "id": 43,
+      "title": "Bib Set",
+      "price": "99.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=300&h=400&fit=crop",
+      "max": 120
+    },
+    {
+      "id": 44,
+      "title": "Knitted Hat",
+      "price": "129.00",
+      "cat_prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=300&h=400&fit=crop",
+      "max": 70
+    },
+    {
+      "id": 45,
+      "title": "Running Shoes",
+      "price": "899.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=400&fit=crop",
+      "max": 50
+    },
+    {
+      "id": 46,
+      "title": "Football Shirt",
+      "price": "449.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1577212017184-80cc0da11082?w=300&h=400&fit=crop",
+      "max": 65
+    },
+    {
+      "id": 47,
+      "title": "Compression Tights",
+      "price": "349.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1506634572416-48cdfe530110?w=300&h=400&fit=crop",
+      "max": 40
+    },
+    {
+      "id": 48,
+      "title": "Gym Bag",
+      "price": "599.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=400&fit=crop",
+      "max": 30
+    },
+    {
+      "id": 49,
+      "title": "Training Tank Top",
+      "price": "249.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=400&fit=crop",
+      "max": 75
+    },
+    {
+      "id": 50,
+      "title": "Basketball Shorts",
+      "price": "299.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=300&h=400&fit=crop",
+      "max": 55
+    },
+    {
+      "id": 51,
+      "title": "Track Jacket",
+      "price": "699.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=300&h=400&fit=crop",
+      "max": 35
+    },
+    {
+      "id": 52,
+      "title": "Yoga Mat",
+      "price": "449.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=300&h=400&fit=crop",
+      "max": 45
+    },
+    {
+      "id": 53,
+      "title": "Sports Watch",
+      "price": "1299.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=400&fit=crop",
+      "max": 20
+    },
+    {
+      "id": 54,
+      "title": "Water Bottle",
+      "price": "149.00",
+      "cat_prefix": "sport",
+      "img": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=300&h=400&fit=crop",
+      "max": 100
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "0610",
+      "userId": 1,
+      "productId": 17
+    },
+    {
+      "id": "2a8d",
+      "userId": 1,
+      "productId": 4
+    },
+    {
+      "id": "4e41",
+      "userId": 1,
+      "productId": 22
+    },
+    {
+      "id": "c7d8",
+      "userId": 1,
+      "productId": 23
+    },
+    {
+      "id": "9cf6",
+      "userId": 1,
+      "productId": 24
+    },
+    {
+      "id": "da3e",
+      "userId": 1,
+      "productId": 20
+    },
+    {
+      "id": "7deb",
+      "userId": 1,
+      "productId": 16
+    }
+  ]
+}
