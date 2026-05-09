@@ -16,6 +16,7 @@ The application allows users to browse products, register, login, manage a shopp
 - Youssef Husseiny
 - Adham Mohamed
 - Abdelrahman Gamal
+
 ---
 
 ## 🏗️ Architecture
@@ -95,8 +96,8 @@ upstream backend_pool {
 
 Traffic is distributed across all 3 instances. If one backend is stopped, Nginx automatically routes traffic to the remaining two.
 
-### 6. Cloud Deployment — Accessible Externally
-The application runs on port 80 and is accessible from any machine on the same local network via the host machine's IP address.
+### 6. Cloud Deployment — Accessible Externally via ngrok
+The application is exposed to the internet using **ngrok**, which creates a secure public HTTPS tunnel to the local server running on port 80. This makes the app accessible from any device anywhere in the world without a paid cloud provider.
 
 ---
 
@@ -111,9 +112,6 @@ A live **cAdvisor** container monitors all running containers in real-time, show
 
 **Access:** `http://localhost:8080`
 
-### Bonus 2: Kubernetes (minikube)
-*(If implemented — add details here)*
-
 ---
 
 ## 🚀 How to Run
@@ -121,6 +119,7 @@ A live **cAdvisor** container monitors all running containers in real-time, show
 ### Prerequisites
 - Docker Desktop installed and running
 - Git
+- ngrok installed and authenticated
 
 ### Steps
 
@@ -151,11 +150,30 @@ cloud_computing_ecom-nginx-1       Up   0.0.0.0:80->80/tcp
 cloud_computing_ecom-cadvisor-1    Up   0.0.0.0:8080->8080/tcp
 ```
 
-**4. Access the application:**
+**4. Access locally:**
 - 🌐 Main site: `http://localhost`
 - 📊 Monitoring: `http://localhost:8080`
 
-**5. Stop all services:**
+**5. Expose externally via ngrok:**
+
+> ⚠️ ngrok requires a free account. Sign up at https://dashboard.ngrok.com/signup and get your authtoken from https://dashboard.ngrok.com/get-started/your-authtoken
+
+```bash
+# First time only — add your authtoken:
+ngrok config add-authtoken YOUR_TOKEN_HERE
+
+# Open a new terminal and run:
+ngrok http 80
+```
+
+ngrok will display a public HTTPS URL like:
+```
+Forwarding  https://xxxx-xx-xx-xx-xx.ngrok-free.app -> http://localhost:80
+```
+
+Open that URL from **any device or network** to access the app externally. 🌍
+
+**6. Stop all services:**
 ```bash
 docker compose down
 ```
@@ -209,6 +227,13 @@ docker stats
 ```
 Shows live CPU and memory usage with enforced limits per container.
 
+### Demonstrate External Access (Cloud Deployment):
+```bash
+# In a separate terminal while docker compose is running:
+ngrok http 80
+# Share the generated HTTPS URL with anyone to access the app externally
+```
+
 ---
 
 ## 📁 Project Structure
@@ -240,4 +265,4 @@ cloud_computing_ecom/
 | Load Balancer | Nginx |
 | Containerization | Docker + Docker Compose |
 | Monitoring | cAdvisor |
-| Orchestration | Kubernetes / minikube *(bonus)* |
+| External Access | ngrok |
